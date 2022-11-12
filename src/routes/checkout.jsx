@@ -35,7 +35,7 @@ export default function Checkout() {
       <Layout>
         <main className="flex justify-evenly">
           {product && <div
-            className="p-4 w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8">
+            className="my-4 mx-3 p-4 w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8">
             <form className="space-y-6" onSubmit={pay}>
               <h5 className="text-xl font-medium text-gray-900">{product.name} - Delivery address</h5>
               <div>

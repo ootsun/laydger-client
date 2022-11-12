@@ -23,7 +23,7 @@ export default function Root() {
   return (
     <>
       <Layout>
-        <main className="flex justify-evenly">
+        <main className="flex flex-col lg:flex-row lg:justify-evenly">
           {!products?.length && <p>Loading...</p>}
           {products?.length && products.map(product => <Product key={product._id} product={product}/>)}
         </main>
